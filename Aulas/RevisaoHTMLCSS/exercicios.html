@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="container">
+    <!-- <h1>Hello, world!</h1> -->
+
+    <div class="row">
+      <div class="col-4">
+        <label for="nome" class="label-control">First Name</label>
+        <input type="text" placeholder="Mark" class="form-control" id="nome" name="nome">
+      </div>
+      <div class="col-4">
+        <label for="lastName" class="label-control">Last Name</label>
+        <input type="text" placeholder="Otto" class="form-control" id="lastName" name="lastName">
+      </div>
+      <div class="col-4">
+        <label for="Username" class="label-control">Username</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <label for="city" class="label-control">City</label>
+        <input type="text" placeholder="City" class="form-control" id="city" name="city">
+      </div>
+      <div class="col-3">
+        <label for="State" class="label-control">State</label>
+        <input type="text" placeholder="State" class="form-control" id="State" name="State">
+      </div>
+      <div class="col-3">
+        <label for="zip" class="label-control">Zip</label>
+        <input type="text" placeholder="Zip" class="form-control" id="zip" name="zip">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mt-3 mb-3"> 
+        <input type="checkbox" class="form-check-label" id="checkbox" name="checkbox"> 
+        <label for="checkbox"> Agree to terms and conditions </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btn btn-primary mt-1 mb-1">Submit Form</button>
+      </div>
+    </div>
+
+    <hr>
+
+    
+   
+    <!-- <table class="table table-success table-hover table-responsive">
+      <thead> 
+        <tr>
+          <th>Coluna 1</th>
+          <th>Coluna 2</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>Dados</td>
+          <td>Dados</td>
+        </tr>
+        <tr>
+          <td>Dados</td>
+          <td>Dados</td>
+        </tr>
+      </tbody>
+    </table> -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <body class="container">
+    <h2>Cadastros</h2>
+
+    <div class="row mb-3">
+        <div class="col-1">
+          <label for="codigo" class="label-control">Codigo</label>
+          <input type="text" name="codigo" id="codigo" class="form-control" value="32" disabled>
+        </div>
+        <div class="col-6">
+          <label for="nome" class="label-control">Nome</label>
+          <input type="text" name="nome" id="nome" class="form-control">
+        </div>
+        <div class="col-3">
+          <label for="email" class="label-control">E-mail</label>
+          <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="col-2">
+          <label for="cpf" class="label-control">CPF</label>
+          <input type="number" name="cpf" id="cpf" class="form-control">
+        </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-2">
+        <label for="nCelular" class="label-control">Nº Celular</label>
+        <input type="tel" name="nCelular" id="nCelular" class="form-control">
+      </div>
+      <div class="col-2">
+        <label for="nTelefone" class="label-control">Nº Telefone fixo</label>
+        <input type="tel" name="nTelefone" id="nTelefone" class="form-control">
+      </div>
+      <div class="col-2">
+        <label for="cep" class="label-control">CEP</label>
+        <input type="text" name="cep" id="cep" class="form-control">
+      </div>
+      <div class="col-2">
+        <label for="logradouro" class="label-control">Logradouro</label>
+        <input type="number" name="logradouro" id="logradouro" class="form-control">
+      </div>
+      <div class="col-1">
+        <label for="numero" class="label-control">Nº</label>
+        <input type="number" name="numero" id="numero" class="form-control">
+      </div>
+      <div class="col-3">
+        <label for="bairro" class="label-control">Bairro</label>
+        <input type="text" name="bairro" id="bairro" class="form-control">
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-3">
+        <label for="cidade" class="label-control">Cidade</label>
+        <input type="number" name="cidade" id="cidade" class="form-control">
+      </div>
+      <div class="col-1">
+        <label for="uf" class="label-control">UF</label>
+        <input type="text" name="uf" id="uf" class="form-control" maxlength="2">
+      </div>
+      <div class="col-2">
+        <label for="status" class="label-control">Status</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Selecione</option>
+          <option>AC</option>
+          <option>BA</option>
+          <option>SP</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row flex-row-reverse"> 
+        <div class="col-1">
+          <button type="submit" class="btn btn-danger mt-1 mb-1">Resetar</button>
+        </div>
+        <div class="col-1">
+          <button type="submit" class="btn btn-success mt-1 mb-1">Próximo</button>
+        </div>
+    </div>
+  </body>
+</html>
