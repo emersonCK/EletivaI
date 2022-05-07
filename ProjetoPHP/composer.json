@@ -1,0 +1,15 @@
+{
+    "name": "aluno/ProjetoPHP",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\ProjetoPHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emerson Silva",
+            "email": "emerson.silva100@fatec.sp.gov.br"
+        }
+    ],
+    "require": {}
+}
