@@ -1,7 +1,7 @@
 <?php
 
     namespace Aluno\ProjetoPHP\Model\Entity;
-    class Produtos{
+    class Produtos {
         private $id;
         private $nome;
         private $descricao;

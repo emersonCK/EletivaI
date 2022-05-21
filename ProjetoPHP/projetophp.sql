@@ -21,6 +21,10 @@ SET time_zone = "+00:00";
 -- Database: `projetophp`
 --
 
+CREATE DATABASE IF NOT EXISTS `projetophp`;
+USE `projetophp`;
+
+
 -- --------------------------------------------------------
 
 --
