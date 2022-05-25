@@ -18,6 +18,7 @@ $router->get('/exemplo', 'Aluno\ProjetoPHP\Controller\ExercicioController::exibi
 $router->post('/exemplo', 'Aluno\ProjetoPHP\Controller\ExercicioController::exibirResultado');
 
 $router->get('/cliente/novo', 'Aluno\ProjetoPHP\Controller\ClientesController::abrirFormularioInserir');
+$router->get('/clientes', 'Aluno\ProjetoPHP\Controller\ClientesController::abrirListaClientes');
 $router->post('/cliente/inserir', 'Aluno\ProjetoPHP\Controller\ClientesController::inserirCliente');
 
 //ADICIONAR AS ROTAS VÁLIDAS ACIMA

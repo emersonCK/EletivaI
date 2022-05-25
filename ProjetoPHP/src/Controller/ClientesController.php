@@ -10,6 +10,10 @@ class ClientesController{
             require_once "../src/View/inserir_cliente.php";
         }
 
+        public static function abrirListaClientes(){
+            require_once "../src/View/listar_clientes.php";
+        }
+
         public static function inserirCliente()
         {
             $cliente = new Clientes();
@@ -18,10 +22,7 @@ class ClientesController{
             $cliente->setIdade($_POST['idade']);
 
             $dao = new ClientesDAO();
-            if ($dao->inserir($cliente))
-                return "Inserido com sucesso!";
-            
-            return "Erro ao inserir!";
+            $resposta = $dao->inserir($cliente);
+            require_once "../src/View/listar_clientes.php";
         }
     }
-?>

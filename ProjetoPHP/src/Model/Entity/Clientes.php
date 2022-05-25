@@ -14,7 +14,6 @@
             return $this->id;
         }
 
-
         public function setId($Id)
         {
             $this->id=$Id;
@@ -33,7 +32,7 @@
 
         public function getIdade()
         {
-            $this->idade;
+           return $this->idade;
         }
 
         public function setIdade($Idade)
@@ -43,7 +42,7 @@
 
         public function getEmail()
         {
-            $this->email;
+            return $this->email;
         }
 
         public function setEmail($Email)
