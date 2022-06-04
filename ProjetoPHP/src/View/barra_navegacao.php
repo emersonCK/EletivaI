@@ -10,8 +10,15 @@
                     <a class="nav-link active" aria-current="page" href="/clientes">Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/cliente/novo">Inserir</a>
+                    <a class="nav-link active" aria-current="page" href="/cliente/novo">Inserir Cliente</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/produtos">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/produto/novo">Inserir Produto</a>
+                </li>
+                
                 <!-- <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>

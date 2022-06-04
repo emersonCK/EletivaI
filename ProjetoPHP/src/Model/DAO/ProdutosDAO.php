@@ -14,6 +14,7 @@
                 $prepare->bindValue(":nome", $p->getNome());
                 $prepare->bindValue(":valor", $p->getValor());
                 $prepare->bindValue(":descricao", $p->getDescricao());
+                return $prepare->execute();
             } catch (\Exception $e) {
                 return false;
             }   
@@ -38,6 +39,7 @@
                 $sql = "DELETE FROM `produto` WHERE `id`=:id";
                 $p = Conexao::conectar()->prepare($sql);
                 $p->bindValue(":id", $id);
+                return $p->execute();
             } catch (\Exception $e) {
                 return false;
             }

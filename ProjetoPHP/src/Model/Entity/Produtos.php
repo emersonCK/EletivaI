@@ -9,27 +9,27 @@
 
         public function getId()
         {
-            $this->id;
+            return $this->id;
         }
 
-        public function setId($Id)
+        public function setId($id)
         {
-            $this->id=$Id;
+            $this->id=$id;
         }
 
         public function getNome()
         {
-            $this->nome;
+            return $this->nome;
         }
 
-        public function setNome($Nome)
+        public function setNome($nome)
         {
-            $this->nome=$Nome;
+            $this->nome=$nome;
         }
 
         public function getDescricao()
         {
-            $this->descricao;
+            return $this->descricao;
         }
 
         public function setDescricao($Descricao)
@@ -39,12 +39,12 @@
 
         public function getValor()
         {
-            $this->valor;
+            return $this->valor;
         }
 
-        public function setValor($Valor)
+        public function setValor($valor)
         {
-            $this->valor=$Valor;
+            $this->valor=$valor;
         }
     }
 ?>
